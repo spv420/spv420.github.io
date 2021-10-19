@@ -1,3 +1,5 @@
-
-
-theme: jekyll-theme-cayman
+title: spv
+description: i hack shit and break shit
+show_downloads: false
+google_analytics: false
+remote_theme: spv420/spv420.github.io
