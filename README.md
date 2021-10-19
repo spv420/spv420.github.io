@@ -1,7 +1,7 @@
 # spv
 Hi, I'm spv.
 
-I hack shit and break shit. 
+I break things and fail to fix them.
 
 I have more 0days than I can keep track of.
 
