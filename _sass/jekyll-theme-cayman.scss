@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  text-shadow: 0 0 20px $body-text-color;
 }
 
 #skip-to-content {
@@ -54,6 +55,7 @@ body {
 
 a {
   color: $body-link-color;
+  text-shadow: 0 0 20px $body-link-color;
   text-decoration: none;
 
   &:hover {
@@ -107,6 +109,7 @@ a {
 
 .page-header {
   color: $header-heading-color;
+  text-shadow: 0 0 20px $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
@@ -223,6 +226,7 @@ a {
     font-size: 0.9rem;
     color: $code-text-color;
     background-color: $code-bg-color;
+    text-shadow: 0 0 20px $code-text-color;
     border-radius: 0.3rem;
   }
 
@@ -232,6 +236,7 @@ a {
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: $code-text-color;
+    text-shadow: 0 0 20px $code-text-color;
     word-wrap: normal;
     background-color: $code-bg-color;
     border: solid 1px $border-color;
@@ -242,6 +247,7 @@ a {
       margin: 0;
       font-size: 0.9rem;
       color: $code-text-color;
+      text-shadow: 0 0 20px $code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -295,6 +301,7 @@ a {
     padding: 0 1rem;
     margin-left: 0;
     color: $blockquote-text-color;
+    text-shadow: 0 0 20px $blockquote-text-color;
     border-left: 0.3rem solid $border-color;
 
     > :first-child {
@@ -375,4 +382,5 @@ a {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+  text-shadow: 0 0 20px $blockquote-text-color;
 }
